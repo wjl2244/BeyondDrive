@@ -46,11 +46,12 @@
 
 | Method | Backbone | Benchmark | PDMS | Weight Download |
 | :---: | :---: | :---:  | :---:  | :---: |
-| LTF* | [ResNet-34](https://drive.google.com/file/d/1-6mtwHsrZt4TyH4lfFEJTT8_dnnkejAI/view?usp=drive_link) | NAVSIM | 89.8 | Google Drive |
-| LTFv7 | [ResNet-34](https://drive.google.com/file/d/1-6mtwHsrZt4TyH4lfFEJTT8_dnnkejAI/view?usp=drive_link) | NAVSIM | 88.7 | Google Drive |
-| MeanFuser + BeyondDrive | [ResNet-34](https://drive.google.com/file/d/1-6mtwHsrZt4TyH4lfFEJTT8_dnnkejAI/view?usp=drive_link) | NAVSIM | 90.3 | [Google Drive](https://drive.google.com/file/d/1ztGNrSHNuxQBQf9HVzyV9lwCHb9B0aKn/view?usp=drive_link) |
-| DiffusionDrive + BeyondDrive | [ResNet-34](https://drive.google.com/file/d/1-6mtwHsrZt4TyH4lfFEJTT8_dnnkejAI/view?usp=drive_link) | NAVSIM | 90.2 | Google Drive |
-| WoTE + BeyondDrive | [ResNet-34](https://drive.google.com/file/d/1-6mtwHsrZt4TyH4lfFEJTT8_dnnkejAI/view?usp=drive_link) | NAVSIM | - | Google Drive |
+| FlowPolicy | [ResNet-34](https://drive.google.com/file/d/1-6mtwHsrZt4TyH4lfFEJTT8_dnnkejAI/view?usp=drive_link) | NAVSIM | 87.0 | [Google Drive](https://drive.google.com/file/d/1wrUrRAQoRPL6XLgZtgBA72SWGMq1kOTr/view?usp=drive_link) |
+| LTF* | [ResNet-34](https://drive.google.com/file/d/1-6mtwHsrZt4TyH4lfFEJTT8_dnnkejAI/view?usp=drive_link) | NAVSIM | 88.7 | Google Drive |
+| LTFv7 | [ResNet-34](https://drive.google.com/file/d/1-6mtwHsrZt4TyH4lfFEJTT8_dnnkejAI/view?usp=drive_link) | NAVSIM | 89.8 | [Google Drive](https://drive.google.com/file/d/1ctVDgZf5yAr0oHiUKUe0CSOWWv3fRdZA/view?usp=drive_link) |
+| MeanFuser + BeyondDrive | [ResNet-34](https://drive.google.com/file/d/1-6mtwHsrZt4TyH4lfFEJTT8_dnnkejAI/view?usp=drive_link) | NAVSIM | 90.3 | [Google Drive](https://drive.google.com/file/d/1yXXlCLWfywht1S1wGliNow5e56_0-9YN/view?usp=drive_link) |
+| DiffusionDrive + BeyondDrive | [ResNet-34](https://drive.google.com/file/d/1-6mtwHsrZt4TyH4lfFEJTT8_dnnkejAI/view?usp=drive_link) | NAVSIM | 89.2 | [Google Drive](https://drive.google.com/file/d/1J7JYhrs0enih8XslHOr4F43bSHT7yr0Z/view?usp=drive_link) |
+| WoTE + BeyondDrive | [ResNet-34](https://drive.google.com/file/d/1-6mtwHsrZt4TyH4lfFEJTT8_dnnkejAI/view?usp=drive_link) | NAVSIM | 89.2 | [Google Drive](https://drive.google.com/file/d/17p77Q3jhWqyUCSaUGOp9yVV52PpO-AW3/view?usp=drive_link) |
 
 
 ## 🎯 Getting Started
