@@ -1,0 +1,28 @@
+_target_: navsim.agents.meanfuser.meanfuser_agent.MeanfuserAgent
+_convert_: 'all'
+
+config:
+  _target_: navsim.agents.meanfuser.meanfuser_config.MeanfuserConfig
+  _convert_: 'all'
+  seq_len: 1
+  ckpt_path: meanfuser_ckpt_path
+  lidar_seq_len: 4
+  
+  num_proposals: 8
+  navtrain_mean_std_path: 'tools/gaussian_mixed_noise/navtrain_8_mean_std.pkl'
+
+  noise_type: 'multi_gaussian'  # 'gaussian', 'norm_trajs', 'multi_gaussian'
+
+  output_dir: None
+
+  use_beyonddrive: False
+
+  trajectory_sampling:
+    _target_: nuplan.planning.simulation.trajectory.trajectory_sampling.TrajectorySampling
+    _convert_: 'all'
+    time_horizon: 4
+    interval_length: 0.5
+
+checkpoint_path: null
+lr: 1e-4
+max_epochs: 100

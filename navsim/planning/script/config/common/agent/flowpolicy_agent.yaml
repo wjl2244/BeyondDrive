@@ -1,0 +1,33 @@
+_target_: navsim.agents.flowpolicy.flowpolicy_agent.FlowPolicyAgent
+_convert_: 'all'
+
+config:
+  _target_: navsim.agents.flowpolicy.flowpolicy_config.TransfuserConfig
+  _convert_: 'all'
+  
+  ckpt_path: flowpolicy_ckpt
+  output_dir: None
+
+  scheduler_type: warmup_cos
+
+  num_sampling_steps: 5
+  num_sampling_proposals: 64
+  cfg_scale: 0.5
+  noise_scale: 0.2
+
+  tf_d_model: 256
+
+  flowmatching_loss_weight: 50.0
+  bev_semantic_loss_weight: 1.0
+
+  trajectory_sampling:
+    _target_: nuplan.planning.simulation.trajectory.trajectory_sampling.TrajectorySampling
+    _convert_: 'all'
+    time_horizon: 4
+    interval_length: 0.5
+
+  latent: True
+
+checkpoint_path: null
+lr: 1e-4
+max_epochs: 100
