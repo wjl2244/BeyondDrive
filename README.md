@@ -3,7 +3,7 @@
 <h1>BeyondDrive</h1>
 <h4>Beyond Imitation: Learning Safe End-to-End Autonomous Driving from Hard Negatives</h4>
 
-[![Paper](https://img.shields.io/badge/ArXiv-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2602.20060)
+[![Paper](https://img.shields.io/badge/ArXiv-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2605.19771)
 [![License](https://img.shields.io/badge/Apache--2.0-019B8F?style=for-the-badge&logo=apache)](https://github.com/wjl2244/BeyondDrive/blob/main/LICENSE) 
 
 <h4 align="center"><em><a href="https://github.com/wjl2244">Junli Wang</a>, 
