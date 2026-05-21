@@ -144,9 +144,6 @@ cd BeyondDrive
 # FlowPolicy Evaluation
 bash scripts/evaluation/run_evaluation_flowpolicy.sh
 
-# Negative Samples Generation and Evaluation
-bash scripts/evaluation/run_generate_negative_samples_pool.sh
-
 # LTF* & LTFv7
 bash scripts/evaluation/run_evaluation_transfuser.sh
 
@@ -155,6 +152,13 @@ bash scripts/evaluation/run_evaluation_meanfuser.sh
 
 # DiffusionDrive+BeyondDrive
 bash scripts/evaluation/run_evaluation_diffusiondrive.sh
+```
+
+### Negative Samples Generate
+Before training(LTFv7, DiffusionDrive+BeyondDrive and Meanfuser+BeyondDrive), negative dataset should be downloaded from [Google Drive](https://drive.google.com/file/d/1M3U5VvhL58QmG91PMr6EH5M6EfPwmRF_/view?usp=drive_link), or generated locally.
+
+```bash
+bash scripts/evaluation/run_generate_negative_samples_pool.sh
 ```
 
 ### 2. Training
