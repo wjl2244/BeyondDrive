@@ -47,7 +47,7 @@
 | Method | Backbone | Benchmark | PDMS | Weight Download |
 | :---: | :---: | :---:  | :---:  | :---: |
 | FlowPolicy | [ResNet-34](https://drive.google.com/file/d/1-6mtwHsrZt4TyH4lfFEJTT8_dnnkejAI/view?usp=drive_link) | NAVSIM | 87.0 | [Google Drive](https://drive.google.com/file/d/1wrUrRAQoRPL6XLgZtgBA72SWGMq1kOTr/view?usp=drive_link) |
-| LTF* | [ResNet-34](https://drive.google.com/file/d/1-6mtwHsrZt4TyH4lfFEJTT8_dnnkejAI/view?usp=drive_link) | NAVSIM | 88.7 | Google Drive |
+| LTF* | [ResNet-34](https://drive.google.com/file/d/1-6mtwHsrZt4TyH4lfFEJTT8_dnnkejAI/view?usp=drive_link) | NAVSIM | 88.7 | [Google Drive](https://drive.google.com/file/d/1t49K8OJqI-DdPedEQ5q0Z2Mkf3Vcc5du/view?usp=drive_link) |
 | LTFv7 | [ResNet-34](https://drive.google.com/file/d/1-6mtwHsrZt4TyH4lfFEJTT8_dnnkejAI/view?usp=drive_link) | NAVSIM | 89.8 | [Google Drive](https://drive.google.com/file/d/1ctVDgZf5yAr0oHiUKUe0CSOWWv3fRdZA/view?usp=drive_link) |
 | MeanFuser + BeyondDrive | [ResNet-34](https://drive.google.com/file/d/1-6mtwHsrZt4TyH4lfFEJTT8_dnnkejAI/view?usp=drive_link) | NAVSIM | 90.3 | [Google Drive](https://drive.google.com/file/d/1yXXlCLWfywht1S1wGliNow5e56_0-9YN/view?usp=drive_link) |
 | DiffusionDrive + BeyondDrive | [ResNet-34](https://drive.google.com/file/d/1-6mtwHsrZt4TyH4lfFEJTT8_dnnkejAI/view?usp=drive_link) | NAVSIM | 89.2 | [Google Drive](https://drive.google.com/file/d/1J7JYhrs0enih8XslHOr4F43bSHT7yr0Z/view?usp=drive_link) |
@@ -56,7 +56,7 @@
 
 ## 🎯 Getting Started
 
-### 1. Clone MeanFuser Repo
+### 1. Clone BeyondDrive Repo
 
 ```bash
 git clone https://github.com/wjl2244/BeyondDrive.git
@@ -101,7 +101,7 @@ Move the download data to create the following structure.
 
 ```angular2html
 navsim_workspace/
-├── MeanFuser/
+├── BeyondDrive/
 ├── dataset/
 │    ├── maps/
 │    ├── navsim_logs/
