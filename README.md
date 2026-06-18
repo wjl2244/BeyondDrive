@@ -1,6 +1,6 @@
 <div align="center">
 <img src="assets/beyonddrive_pyrus_nivalis.png" width="800">
-<h1>BeyondDrive</h1>
+<h1>[🎉ECCV 2026] BeyondDrive</h1>
 <h4>Beyond Imitation: Learning Safe End-to-End Autonomous Driving from Hard Negatives</h4>
 
 [![Paper](https://img.shields.io/badge/ArXiv-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2605.19771)
@@ -27,6 +27,7 @@
 ---
 
 ## 📢 News
+- **`[2026/6/18]`** 🎉 Accepted to ECCV 2026.
 - **`[2026/5/20]`** We released code and checkpoints.
 - **`[2026/5/20]`** We released our [paper](https://arxiv.org/abs/2602.20060) on arXiv. 
 
